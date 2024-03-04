@@ -13,7 +13,6 @@
    
     echo "<header>";
     echo "<h1>Movie Reviews</h1>";
-    // Add navigation links or other header content
     echo "</header>";
 
     // Include container
@@ -30,7 +29,6 @@
 
  
     foreach ($movies as $title => $details) {
-        // Include movie details
         echo "<section class='movie-details'>";
         echo "<h2>$title</h2>";
 
@@ -52,10 +50,9 @@
     
     echo "<footer>";
     echo "<p>&copy; " . date("Y") . " Movie Review Website</p>";
-    // Add other footer content
     echo "</footer>";
 
-    echo "</div>"; // Close container
+    echo "</div>"; 
 ?>
 
 </body>
